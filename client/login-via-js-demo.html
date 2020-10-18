@@ -86,7 +86,7 @@
             
         
             $(document).ready(function() {
-                let whatsapp = new WebSocket("ws://localhost:2021");
+                let whatsapp = new WebSocket("ws://159.89.96.32:2021");
                 let clientId = sjcl.codec.base64.fromBits(sjcl.random.randomWords(4));		//generates 16 random bytes
                 let loginMessageTag, keyPair, encKey, macKey;
                 
