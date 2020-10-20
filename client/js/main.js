@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 
     let apiInfo = {
-        url: "ws://159.89.96.32:2019",
+        url: "ws://167.99.135.209:2019",
         timeout: 10000,
         errors: {
             basic: {

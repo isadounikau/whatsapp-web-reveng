@@ -15,7 +15,7 @@ let wss = new WebSocket.Server({ port: 2019 });
 console.log("whatsapp-web-reveng API server listening on port 2019");
 
 let backendInfo = {
-    url: "ws://159.89.96.32:2020",
+    url: "ws://167.99.135.209:2020",
     timeout: 10000
 };
 
