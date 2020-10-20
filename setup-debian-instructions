@@ -1,0 +1,10 @@
+apt-get update
+apt-get install -y curl
+curl -sL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs
+apt-get install -y git
+apt-get install -y python-pip
+npm install -f
+pip install -r requirements.txt
+npm install pm2@latest -g
+pm2 --name HelloWorld start npm -- start
